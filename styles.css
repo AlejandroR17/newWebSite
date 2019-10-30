@@ -195,6 +195,55 @@ CLAIMS
 }
 
 /*==========================
+PORTFOLIO
+===========================*/
+
+.portfolio {
+    position: relative;
+}
+
+.portfolio:before {
+    content:"";
+    display: block;
+    height: 30px;
+    background-color: #ebebeb;
+    margin-bottom: 30px;
+}
+
+.portfolio .title-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+
+.portfolio h2 {
+    display: inline;
+    background: #ffffff;
+    padding: 0.8rem;
+}
+
+.work {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.work:last-child {
+    margin-right: 0;
+}
+
+.work figure {
+    margin-bottom: 1em;
+}
+
+.work figure > img {
+    width: 100%;
+}
+
+/*==========================
 FOOTER
 ===========================*/
 .page-footer:before {
